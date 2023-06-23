@@ -1,0 +1,107 @@
+.calculator-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f6f7;
+}
+
+.calculator-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e7f3f5; /* Jasnobeżowy */
+}
+
+.title {
+    text-align: center;
+    color: #0096b8; /* Jasnoniebieski */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+.input-label {
+    color: #0096b8; /* Jasnoniebieski */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-field {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #d6eaf0; 
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.calculate-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0096b8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-label {
+    color: #0096b8;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result-field {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #d6eaf0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #0096b8;
+    margin: 5px;
+}
